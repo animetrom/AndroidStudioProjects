@@ -1,9 +1,10 @@
-package br.com.atiladpribeiro.conexoes.caraoucoroa;
+package br.com.atiladpribeiro.conexoes.caraoucoroa02;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class ResultadoActivity extends AppCompatActivity {
 
@@ -25,12 +26,12 @@ public class ResultadoActivity extends AppCompatActivity {
             imageResultado.setImageResource(R.drawable.moeda_coroa);
         }
 
-        buttonVoltar.setOnClickListener(new View.OnClickListener() {
+        buttonVoltar.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
-
     }
 }
