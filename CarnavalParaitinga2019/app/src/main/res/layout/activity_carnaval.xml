@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarnavalActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/carnaval"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="Carnaval de Marchinhas"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:text="Considerado o melhor carnaval de marchinhas do estado de São Paulo o evento atrai milhares de foliões que lotão as ruas e ladeiras dançando as marchinhas criadas pelos próprios moradores da cidade. Um dos blocos mais conhecidos é o Juca Teles que percorre as ruas da cidade no sabado de Carnaval apartir do 12:00h (meio dia). Outra atração do carnaval são os bonecões que desfilam durante as passagens dos blocos."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+</android.support.constraint.ConstraintLayout>

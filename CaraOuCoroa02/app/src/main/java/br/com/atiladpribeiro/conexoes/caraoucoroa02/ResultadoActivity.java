@@ -30,6 +30,7 @@ public class ResultadoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+
                 finish();
             }
         });

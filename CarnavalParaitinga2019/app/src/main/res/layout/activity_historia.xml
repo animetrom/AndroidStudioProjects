@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoriaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:text="HISTÓRIA DA CIDADE"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="158dp"
+        android:text="São Luiz do Paraitinga é uma pequena cidade do interior do Estado de São Paulo e possui inumeros atrativos cuturais e ecológicos. Um de seus principáis atrativos é o Carnaval de Marchinhas que atrai todos os anos milhares de foliões para curtir o melhor carnaval de blocos do Estado em um cenário de ruas, ladeiras, praças e casarões com arquitetura do seculo XIX. Outros eventos também são muito procurados, entre eles estão a Festa do Divino e o Festival da Música Brasileira."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/cidade"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>
