@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="312dp"
-        android:layout_height="151dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="32dp"
@@ -19,9 +19,9 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/btnJogar"
-        android:layout_width="221dp"
-        android:layout_height="69dp"
+        android:id="@+id/buttonJogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -29,7 +29,7 @@
         android:background="@drawable/botao_jogar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.0" />
